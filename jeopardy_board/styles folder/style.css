@@ -1,0 +1,52 @@
+/* LANDING PAGE */
+body {
+    position: center;
+    background-color: lightcoral;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.landing-header {
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    order: 1;
+}
+
+.hero1 {
+    order: 2;
+    margin-top: 2%;
+}
+
+.PLAY {
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orangered;
+    display: block;
+    border: 1px solid;
+    border-color: slategray;
+    order: 3;
+    padding: 1%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    width: 20%;
+}
+
+.PLAY:hover {
+    background-color: yellow;
+}
+
+.copyright-info {
+    text-align: center;
+    font-size: larger;
+    order: 4;
+}
